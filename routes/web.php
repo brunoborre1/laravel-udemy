@@ -18,4 +18,4 @@ Route::view('/about', 'about')->name('about');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/portfolio', 'portfolio')->name('portfolio');
 
-//Route::post('contact', 'MessagesController@store');
+Route::post('contact', 'MessagesController@store');
